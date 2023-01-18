@@ -1,0 +1,35 @@
+.box-container{
+    display: flex;
+    border-radius: 3%;
+    box-shadow: 0 4px 8px 0 rgb(0 0 0 / 20%), 0 6px 20px 0 rgb(0 0 0 / 19%);
+    align-items: center;
+    width:  500px;
+    height: 400px;
+    margin : 0 auto;
+    margin-top: 180px;
+    background-color: rgba(9, 6, 44, 1);
+    
+    }
+    .box-container:hover {
+      transform: scale(1.1); 
+    }
+    .container-box{
+      
+      margin-left: auto;
+      margin-right: auto;
+      width: 282px;
+      text-align: center;
+    }
+    h2{
+      color: white;
+    }
+    p{
+      color: white;
+    }
+    .remember-field{
+      display: flex;
+    }
+    label{
+      color: white;
+      margin-left: 5px;
+    }
